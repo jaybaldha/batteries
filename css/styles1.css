@@ -1,0 +1,468 @@
+/* Name:Jay Baldha, Id:C0774312 */
+#container{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+main{
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top:0.5em;
+    margin-bottom:10px;
+    padding:1em;
+    border-radius:2em 0 2em 0;
+    background-color:#FFFFFF;
+    opacity: 0.85;
+}
+/*Style for the nav specifies text properties */
+nav{
+    margin-top:2px;
+    margin-bottom:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'
+}
+nav a{
+    padding: 30px;
+    color: rgb(98, 161, 206);
+    margin-left:0;
+    margin-right:0;
+    width:20%;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(56, 231, 202);
+    /* text-shadow:0.2em 0.1em #01081f; */
+    font-style: italic;
+}
+/*Style for the footer specifies font size,text alignment, and top margin*/
+footer{
+    font-size: .70em;
+    text-align:center;
+    margin-top:2em;
+    color: #ffffff;
+}
+.strike
+{
+    text-decoration: line-through;
+}
+.equip{
+    display:none;
+}
+/*style displays the mobile class*/
+.mobile{
+    display:inline;
+}
+/*style hides the desktop class*/
+.desktop{
+    display:none;
+}
+.tablet{
+    display:none;
+}
+dt{font-weight:bold;}
+dd{padding-bottom:20px;}
+/* Style for anchor elements within the main element*/
+main a{
+    background-color:#9d9d93;
+    border-radius:1em;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 0.5em;
+    text-decoration: none;
+}
+footer{
+    background-color: #343f51;
+    margin-top:-0.2em;
+    padding: 2em;
+    font-size: 10px;
+    border-style: ridge;
+    border-width: 2px;
+}
+img{
+    max-width:100%;
+}
+
+/*Style for aside element*/
+aside{
+    font-style:italic;
+}
+/* Media Query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 660px){
+/*Style that specifies a horizontal display for navigation links */
+main{
+    clear:left;
+    margin-top:-0.3em;
+    border-radius:0;
+    overflow:auto;
+}
+
+.mobile{
+    display:none; 
+}
+.desktop{
+    display:inline;
+}
+.items{
+    display:block;
+    list-style-position:inside;
+}
+.tablet{
+    display:block;
+    margin-top: -3em;
+    margin-bottom:-1em;
+}
+dt{
+    font-weight: bold;
+    margin-top:0.7em;
+}
+/*Style specifies bottom padding for the section element */
+section{padding-bottom:3em;}
+
+/*Style for h1 section element */
+section h1{text-align:left;}
+/*Style for anchor element within the section element */
+section a{
+    background-color:transparent;
+    color:#1d1d1c;
+    font-weight: normal;
+    padding: 0;
+    text-decoration:underline;
+}
+/*Style for contact class */
+.contact{
+    background-color:transparent;
+    color:#1d1d1c;
+    padding: 0;
+    text-decoration:underline;
+}
+/*Style for article element*/
+article{
+    background-color:#c1d9ca;
+    float:left;
+    margin:0.5%;
+    padding:0.5%;
+    text-align:center;
+    width:31%;
+}
+/*Style for image element contained within the main article element */
+main article img{
+    border: solid 0.1em #1d1d1c;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*Style for paragraph element contained within the main article element */
+main article p{
+    color:#000000;
+    margin-top:2%;
+    padding:1%;
+    text-align:left;
+}
+/*Style for unordered list element contained within the main article element */
+main article ul{
+    text-align:left;
+}
+/*Style for aside element*/
+aside{
+    background-color: #ffffff;
+    border-radius: 0 0 5em 5em;
+    box-shadow: 1em 1em 1em #4c4f4d;
+    padding:1.5em;
+    margin:1em
+}
+/*Style for navigation*/
+nav{
+    background-color: #343f51;
+    padding:15px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    margin-bottom:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+nav a{
+    padding: 30px;
+    color: rgb(98, 161, 206);
+    margin-left:0;
+    margin-right:0;
+    width:20%;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(56, 231, 202);
+    text-shadow:0.2em 0.1em #01081f;
+    font-style: italic;
+}
+}
+/* Media Query for desktop viewport targets screen size with a minimum width of 830px. */
+@media only screen and (min-width: 830px){
+#container{
+   background-color: #ffffff;
+}
+/* Margin line for footer */
+hr{
+border: 2px solid #343F51;
+margin-top:2em;
+}
+main{
+    background-color: #343F51;
+}
+main p{
+    color:#ffffff;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+}
+body{
+    background-color:#ffffff;
+
+}
+/*Style for our team main article image element*/
+article img{
+    background-color:#1d1d1c;
+    display:inline;
+    height:10%;
+    width:28%;
+    margin:1%;
+    padding:1%;
+}
+ /*Style for about us images*/
+.aboutImg{
+    border-radius: 20px;
+    margin-right:2%;
+    padding:1px;
+    float:left;
+}
+/* Style for Shop Image */
+#shopImg{
+    margin-right: 40px;
+    float:left;
+    border-radius: 20px;
+    padding:1px;
+} 
+  
+/*Style for images within the figure element */
+figure img{
+    background-color:#1d1d1c;
+    display:inline;
+    height:8em;
+    width:28%;
+    margin:1%;
+    padding:1%;
+}
+/*Style for anchor elements within the figure element */
+figure a{
+    background-color:transparent;
+    padding:0;
+    text-decoration: none;
+}
+/*Style for left align header Logo*/
+header{
+    text-align: left;
+    margin-left: 10em;
+}
+.companyName{
+    text-align:center;
+    margin-top: -7em;
+    margin-bottom:4em;
+}
+/*Style for navigation*/
+nav{
+    background-color: #343f51;
+    padding:15px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    margin-bottom:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+nav a{
+    padding: 30px;
+    color: rgb(98, 161, 206);
+    margin-left:0;
+    margin-right:0;
+    width:20%;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(56, 231, 202);
+    text-shadow:0.2em 0.1em #01081f;
+    font-style: italic;
+}
+/*Style applies height and opacity to images within figure element*/
+figure img{
+    height:15em;
+    opacity:0.7;
+}
+/*Style removes transparency on hover*/
+figure img:hover{
+    opacity:1;
+}
+/*Style that applies color to h1 element */
+h1{text-align:center;color: #01081f;}
+/* Style specifies a background color, margin, and padding for
+footer element */
+footer{
+    background-color: #343f51;
+    margin-top:-0.2em;
+    padding: 2em;
+    font-size: 10px;
+    border-style: ridge;
+    border-width: 2px;
+}
+/* Style specifies a  color and left margin for the section element */
+section{
+    color: #ffffff;
+    margin-left:1em;
+    padding-bottom: 5em;
+}
+/*Style for anchor element within the section element */
+section a{
+    color:#ffffff;
+    
+}/*Style for paragraph element within the section element */
+section p{
+    margin-left:0;
+}
+section ol li{
+    color:rgb(107, 1, 1);
+    padding: 2px;
+    list-style-type: decimal;
+}
+/* Style for main element */
+main p{
+    color:rgb(107, 1, 1);
+}
+main{
+    display: block;
+    background-color: #c5bcd4;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 20px;
+    box-shadow: 5px 7px #05090e;
+}
+/*Style for main h2 element */
+main h2,h3{
+    color:rgb(107, 1, 1)
+}
+.contact{
+    color:#ffffff;
+}
+/*Style for h2 article element */
+main article h2{
+    color: #000000;
+}
+/* Style for ol and li element */
+/* Style for product box */
+.probox img{
+ width:200px;
+ border-radius:50%;
+ border:solid 2px #05090e;
+}
+.probox{
+    width:30%;
+    padding:10px;
+    float:left;
+    text-align:center;
+    color:rgb(107, 1, 1);
+}
+.proitem{
+    text-align: center;
+}
+.proitem img{
+    width:200px;
+    border-radius:50%;
+    border:solid 2px #05090e;
+}
+.strike
+{
+    text-decoration: line-through;
+}
+.proround {
+    width:40%;
+    margin-left: 400px;
+    padding: 15px;
+    background-color:rgb(194, 48, 48);
+    color:rgb(107, 1, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+table{
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left :auto;
+    margin-right:auto;
+    width:100%;
+    border-style: dashed;
+}
+th,td{
+    border:0.1em solid #000000;
+    padding: 1em;
+}
+/*Style for th element */
+th{
+    background-color: #1d1d1c;
+    color:#ffffff
+}
+/* Stylr for th hover element */
+th:hover{
+    background-color: cornflowerblue;
+}
+/* Style for tr hover element  */
+tr:nth-child(even){
+    background-color: cornsilk;
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
+tr:hover{
+    background-color: cornflowerblue;
+}
+table img{
+    border-radius: 20%;
+}
+/*Style for caption element */
+caption{
+    font-size: 1.5em;
+    font-weight:bold;
+    padding-bottom:0.5em;
+}
+/* Style rule for input,select, and textarea form elements */
+input,select, textarea{
+    display: block;
+    margin-bottom : 1em;
+}
+/* Style rule for label element */
+label{
+    display: block;
+}
+/* Style rule for unordered list within a form */
+form ul{
+    list-style-type:none;
+}
+.chkbx{
+    display:inline-block;
+}
+/*Style rule for desktop viewport */
+form{
+    background-color:#FFFFFF;
+    padding: 1em;
+}
+/* Style rule for paragraph with form element */
+form p{
+    color: #000000;
+}
+/* Style for form fieldset element */
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    border: 2px groove (internal value);
+  }
+}

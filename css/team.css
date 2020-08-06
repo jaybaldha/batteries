@@ -1,0 +1,131 @@
+/* Name:Jay Baldha, Id:C0774312 */
+/* Media Query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px){
+    /*Style that specifies a horizontal display for navigation links */
+    .mobile{
+        display:none; 
+    }
+    .desktop{
+        display:inline;
+    }
+    .tablet{
+        display:block;
+        margin-top: -3em;
+        margin-bottom:-1em;
+    }
+    /*Style specifies bottom padding for the section element */
+    section{padding-bottom:3em;}
+    
+    /*Style for h1 section element */
+    section h1{text-align:left;}
+    /*Style for anchor element within the section element */
+    section a{
+        background-color:transparent;
+        color:#1d1d1c;
+        font-weight: normal;
+        padding: 0;
+        text-decoration:underline;
+    }
+    /*Style for article element*/
+    article{
+        background-color:#c1d9ca;
+        float:left;
+        margin:0.5%;
+        padding:0.5%;
+        text-align:center;
+        width:31%;
+    }
+    /*Style for image element contained within the main article element */
+    main article img{
+        border: solid 0.1em #1d1d1c;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /*Style for paragraph element contained within the main article element */
+    main article p{
+        color:#000000;
+        margin-top:2%;
+        padding:1%;
+        text-align:left;
+    }
+    /*Style for unordered list element contained within the main article element */
+    main article ul{
+        text-align:left;
+    }
+    /*Style for aside element*/
+    aside{
+        background-color: #ffffff;
+        border-radius: 0 0 5em 5em;
+        box-shadow: 1em 1em 1em #4c4f4d;
+        padding:1.5em;
+        margin:1em
+    }
+    }
+/* Media Query for desktop viewport targets screen size with a minimum width of 830px. */
+@media only screen and (min-width: 830px){
+    /*Style for our team main article image element*/
+    article img{
+        background-color:#1d1d1c;
+        display:inline;
+        height:10%;
+        width:28%;
+        margin:1%;
+        padding:1%;
+    }
+    /*Style for images within the figure element */
+    figure img{
+        background-color:#1d1d1c;
+        display:inline;
+        height:8em;
+        width:28%;
+        margin:1%;
+        padding:1%;
+    }
+    /*Style for anchor elements within the figure element */
+    figure a{
+        background-color:transparent;
+        padding:0;
+        text-decoration: none;
+    }
+    /*Style applies height and opacity to images within figure element*/
+    figure img{
+        height:15em;
+        opacity:0.7;
+    }
+    /*Style removes transparency on hover*/
+    figure img:hover{
+        opacity:1;
+    }
+    /*Style for figCaption */
+    figcaption{
+        margin-left: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(107, 1, 1);
+        font-weight: bold;
+    }
+
+    /* Style specifies a  color and left margin for the section element */
+    section{
+        color: #ffffff;
+        margin-left:1em;
+        padding-bottom: 5em;
+    }
+    /*Style for anchor element within the section element */
+    section a{
+        color:#ffffff;
+        
+    }/*Style for paragraph element within the section element */
+    section p{
+        margin-left:0;
+    }
+    /* Style for main element */
+    main p{
+        color:white;
+    }
+    /*Style for h2 article element */
+    main article h2{
+        color: #000000;
+    }
+    }
+    

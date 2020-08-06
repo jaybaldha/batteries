@@ -1,0 +1,40 @@
+/* Style rule for input,select, and textarea form elements */
+input,select, textarea{
+    display: block;
+    margin-bottom : 1em;
+    font-family: cursive, Helvetica, sans-serif;
+}
+/* Style rule for label element */
+label{
+    display: block;
+}
+/* Style rule for label element */
+.inpRadio{
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+}
+/* Style rule for unordered list within a form */
+form ul{
+    list-style-type:none;
+}
+.chkbx{
+    display:inline-block;
+}
+/*Style rule for desktop viewport */
+form{
+    background-color:#FFFFFF;
+    padding: 1em;
+}
+/* Style rule for paragraph with form element */
+form p{
+    color: #000000;
+}
+/* Style for form fieldset element */
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    border: 2px groove (internal value);
+  }
