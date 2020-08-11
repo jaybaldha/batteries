@@ -12,6 +12,10 @@
         <title>Contact Us</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1">
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	   <script src="jquery.validate.min.js"></script>
+	   <script src="additional-methods.min.js"></script>	
+	   <script src="reservation.js"></script>
 </head>
 
 <body id="container">
@@ -28,7 +32,7 @@
          <a href="specials.html">Specials</a> 
          <a href="training.html">Training</a>
          <a href="contact.html">Contact Us</a>
-         <a href="styleguide1.html">Style Guide</a>
+         <!-- <a href="styleguide1.html">Style Guide</a> -->
      </nav>
        <!--Use the main area to add the main content of the webpage-->
        <main>
@@ -37,13 +41,13 @@
               <fieldset>
                <legend>Personal Information</legend>
               <label for="fName">First Name:</label>
-              <input type="text" id="fName" name="fname" required autofocus>
+              <input type="text" id="fName" name="fname" autofocus>
               <label for="lName">Last Name: </label>
-              <input type="text" name="lName" id="lName" required>
+              <input type="text" name="lName" id="lName">
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" required>
+              <input type="email" name="email" id="email">
               <label for="phone">Phone</label>
-              <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input type="tel" name="phone" id="phone">
               <small class="inpRadio">Format:999-999-9999</small><br>
               <label for="birthday">Birthday:</label>
               <input type="date" id="birthday" name="birthday">
