@@ -1,1 +1,1 @@
-Website completed with the given tasks.
+Website created with html, css, javascript and jquery.
