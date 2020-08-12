@@ -84,6 +84,12 @@ main a{
     padding: 0.5em;
     text-decoration: none;
 }
+div.hide {
+	display: none;
+}
+a, a:focus, a:hover {
+	color: blue;
+}
 footer a{
     color:#ffffff;
     text-decoration: none;

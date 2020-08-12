@@ -1,6 +1,6 @@
 /* Style rule for input,select, and textarea form elements */
-input,select, textarea{
-    display: block;
+input,select,textarea{
+    /* display: block; */
     margin-bottom : 1em;
     font-family: cursive, Helvetica, sans-serif;
 }
@@ -8,7 +8,7 @@ input,select, textarea{
 label{
     display: block;
 }
-/* Style rule for label element */
+/* Style rule for radio button element */
 .inpRadio{
     float: left;
     clear: none;
@@ -30,11 +30,20 @@ form{
 form p{
     color: #000000;
 }
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
 /* Style for form fieldset element */
 fieldset {
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding: 4px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
     border: 2px groove (internal value);
   }
+label.error {
+    color: rgb(235, 11, 11);
+    font-size: 87.5%;
+}

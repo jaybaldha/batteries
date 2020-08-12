@@ -4,59 +4,43 @@ $(document).ready(function() {
   		success: "valid"
 	});
 	$.validator.addMethod("Date",function(value, element) { //date format method
-            return value.match(/^(0[1-9]|1[012])[\/|-](0[1-9]|[12][0-9]|3[01])[\/|-](19\d\d|2\d\d\d)$/);
+			return value.match(/^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$/);
         },
-        "Please enter a date in the format mm/dd/yyyy" //Error msg
-    );
+        "Please enter a date in the format dd/mm/yyyy" //Error msg
+	);
     $.validator.addMethod('positive', // positive number validator
     function (value) { 
         return Number(value) > 0;
     }, 'Please enter a positive number.'); //Error msg
 
-  $("#reservation_form").validate({ //validation function
+  $("#contact_form").validate({ //validation function
     rules: {
-      nights:{
+      fName:{
 	  	required:true,
-	  	positive: true, //checking positive number
+	  },
+	  lName:{
+		required:true,
 	  },	
       email: {
         required: true,
         email: true,
-      },
-      name: {
-        required: true,
-        nowhitespace: true,
-        lettersonly: true
-      },
-      phone: {
-        required: true,
-        digits: true,
-        phonesCA: true
-      },
-      arrival_date:{
-      	required: true,
-      	Date: true,
 	  },
-	  room: {
-	  	required:true,
-	  },
-	  bed:{
-	  	required:true,
-	  },
-	  adults:{
-	  	min:1,
-	  },
-	  
+	  phone:{
+		  required:true,
+		  digits:true,
+		  maxlength:10,
+	  }
     },
     messages: {
       email: {
         required: 'Please enter an email address.',
-        email: 'Please enter a <em>valid</em> email address.',
-    
-      }
-    }
+		email: 'Please enter a <em>valid</em> email address.',
+	  }
+	},
   });
-
+$("#reset").click(function() {
+	$("#contact_form").validate().resetForm();
+});
 // });
 
 

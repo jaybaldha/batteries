@@ -6,9 +6,12 @@
         <link rel="stylesheet" href="css/team.css">
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/styles1.css">
+        <link rel="stylesheet" href="css/gallery.css">
         <title>Special Offers</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/gallery.js"></script>
 </head>
 
 <body id="container">
@@ -54,34 +57,27 @@
         <div class="desktop">
             <h1>Product Range</h1>
             <section>
-                    <h1>Sales</h1>
-                    <div class="probox">
-                        <img src="images/battery1.jpg" alt="AA battery">
-                        <h2>ZealotAA</h2>
-                        <h3>Price: 15 CAD</h3>
-                        <p>Small- For remote Controls</p>
+                <h1 style="text-align: center;">View our Products</h1>
+                <div class="alignment">
+                <img id="image" src="images/battery1.jpg" alt="HTML5 and CSS3">
+                <div>
+                    <div id="left_button" class="button_panel"><img src="images/left.jpg" alt=""></div>
+                    <div id="display_panel"> 
+                        <ul id="image_list">
+                            <li><a href="images/battery1.jpg"><img src="images/battery1.jpg" alt="Battery1"></a></li>
+                            <li><a href="images/battery2.jpg"><img src="images/battery2.jpg" alt="Battery2"></a></li>
+                            <li><a href="images/battery4.jpg"><img src="images/battery4.jpg" alt="Battery4"></a></li>
+                            <li><a href="images/battery5.jpg"><img src="images/battery5.jpg" alt="Battery5"></a></li>
+                            <li><a href="images/productBanner.jpg"><img src="images/productBanner.jpg" alt="Product Banner"></a></li>
+                            <li><a href="images/productBanner1.jpg"><img src="images/productBanner1.jpg" alt="Product Banner1"></a></li>
+                            <li><a href="images/product1.jpg"><img src="images/product1.jpg" alt="Product1"></a></li>
+                            <li><a href="images/product3.jpg"><img src="images/product3.jpg" alt="Product3"></a></li>
+                            <li><a href="images/product4.jpg"><img src="images/product4.jpg" alt="Product4"></a></li>
+                        </ul>
                     </div>
-                    <div class="probox">
-                        <img src="images/battery2.jpg" alt="C battery">
-                        <h2>QuadriC</h2>
-                        <h3>Price: 10 CAD</h3>
-                        <p>Product for toys and torchlights</p>
-                    </div>
-                    <div class="probox">
-                        <img src="images/battery4.jpg" alt="D battery">
-                        <h2>PowerD</h2>
-                        <h3>Price: 20 CAD</h3>
-                        <p>Product for your radio transmitters</p>
-                    </div>
-                    <section>
-                        <h1 style="text-align: center;">Product Of The Week</h1>
-                            <div class="proitem">
-                                <img src="images/battery5.jpg" alt="Product of the week">
-                                <h3 class="strike">Price:60 Cad</h3>
-                                <h3>Price:48 Cad</h3>
-                                <h2>You Save 12 Cad</h2>
-                                <p class="proround">Buy full pack of 10 and get 20% discount on the total MRP.</p>
-                    </section>	
+                    <div id="right_button" class="button_panel"><img src="images/right.jpg" alt=""></div>
+                </div>	
+            </div>
        </main>
        <!--Use -->
        <hr>

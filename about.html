@@ -10,6 +10,8 @@
         <title>About Us</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+   	<script src="js/expansion.js"></script>
 </head>
 <body id="container">
       <!--Use the header for the website name or logo-->
@@ -28,19 +30,33 @@
         <!-- <a href="styleguide1.html">Style Guide</a> -->
         </nav>
        <!--Use the main area to add the main content of the webpage-->
-       <main>
+       <main id="paras">
         <section>
                 <img class="aboutImg" src="images/company.png" alt="This is our Story">
                 <h1>About Bjion Batteries Limited.</h1>
+                <div>
                 <p>Bjion batteries limited have been in the industry for more than 1year now having its own manufacturing plant located in Sarnia.
-                The Company specializes in Alkaline batteries and it has its own range of product with different types and sizes.</p> 
+                The Company specializes in Alkaline batteries and it has its own range of product with different types and sizes.</p>
+                </div>
+                <div class="hide">
+                <p>
+                This is 
+                </p>
+                </div> 
+                <a>Show more</a>
         </section>
         <section>
                 <img class="aboutImg" src="images/story.jpg" alt="This is our Story">
                 <h1>Our Story</h1>
                 <p>The company started with a small group of people in order to create a monoploy business in Sarnia as there was no battery manufacturer in the city.
-                   It was very challenging in the start and there we many hurdles 
+                   It was very challenging in the start and there were many hurdles. 
                 </p>
+                <div class="hide">
+                <p>
+                  But due to our profound leader and great team we overcame that hurdles.
+                </p>
+                </div> 
+                <a>Show more</a>
         </section>
 
         <section>
@@ -49,6 +65,12 @@
                 <p>We guarantee at least <strong>6 months gurantee</strong> for our products and trust us you will never be dissatisfied.
                    <strong>You can always replace our product if it gets damaged before 6 months for free.</strong>     
                 </p>
+                <div class="hide">
+                <p>
+                However, we have more than 90% satisfaction and want to achieve 100%
+                </p>
+                </div> 
+                <a>Show more</a>
         </section>
         <section>
                 <img class="aboutImg" src="images/shop.jpg" alt="Shop with us">
@@ -57,10 +79,12 @@
                         <li>Reliable products</li>
                         <li>Long Lasting</li>
                         <li>Cost Effective</li>
+                        <div class="hide">
                         <li>Fast Delivery</li>
                         <li>Quality and Customer first</li>
-                        <li>Located at multiple locations</li>
-                        <li>Environment Friendly</li>
+                        <li>Located at multiple locations</li>       
+                        </div> 
+                        <a>Show more</a>
                 </ol>
         </section>
        </main>
