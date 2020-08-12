@@ -180,7 +180,7 @@ nav{
     margin-bottom:10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-nav a{
+/* nav a{
     padding: 30px;
     color: rgb(98, 161, 206);
     margin-left:0;
@@ -194,7 +194,7 @@ nav a:hover{
     color:rgb(56, 231, 202);
     text-shadow:0.2em 0.1em #01081f;
     font-style: italic;
-}
+} */
 }
 /* Media Query for desktop viewport targets screen size with a minimum width of 830px. */
 @media only screen and (min-width: 830px){
@@ -269,7 +269,7 @@ header{
     margin-bottom:4em;
 }
 /*Style for navigation*/
-nav{
+ /* nav{
     background-color: #343f51;
     padding:15px;
     border-bottom-left-radius: 200px;
@@ -283,15 +283,14 @@ nav a{
     margin-left:0;
     margin-right:0;
     width:20%;
-}
+} */
 nav a:link{
     text-decoration: none;
-}
-/* nav a:hover{
-    color:rgb(56, 231, 202);
+} 
+ nav a:hover{
     text-shadow:0.2em 0.1em #01081f;
     font-style: italic;
-} */
+} 
 /*Style applies height and opacity to images within figure element*/
 figure img{
     height:15em;

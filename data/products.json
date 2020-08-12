@@ -1,0 +1,248 @@
+{"Batterys":[
+{
+    "Name":"Battery1",
+    "Stock": 5,
+    "Quantity on Hand":3,
+    "Size": "AAA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery2",
+    "Stock": 6,
+    "Quantity on Hand":4,
+    "Size": "AAAA",
+    "Colour":"Black"
+},
+{
+    "Name":"Battery3",
+    "Stock": 7,
+    "Quantity on Hand":5,
+    "Size": "AA",
+    "Colour":"Blue"
+},
+{
+    "Name":"Battery4",
+    "Stock": 8,
+    "Quantity on Hand":6,
+    "Size": "C",
+    "Colour":"Light Brown"
+},
+{
+    "Name":"Battery5",
+    "Stock": 9,
+    "Quantity on Hand":7,
+    "Size": "C",
+    "Colour":"Light Brown"
+},
+{
+    "Name":"Battery6",
+    "Stock": 10,
+    "Quantity on Hand":8,
+    "Size": "C",
+    "Colour":"Light Brown"
+},
+{
+    "Name":"Battery7",
+    "Stock": 11,
+    "Quantity on Hand":9,
+    "Size": "AA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery8",
+    "Stock": 12,
+    "Quantity on Hand":8,
+    "Size": "AA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery9",
+    "Stock": 13,
+    "Quantity on Hand":10,
+    "Size": "AA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery10",
+    "Stock": 14,
+    "Quantity on Hand":11,
+    "Size": "AA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery11",
+    "Stock": 15,
+    "Quantity on Hand":12,
+    "Size": "AA",
+    "Colour":"Green"
+},
+{
+    "Name":"Battery12",
+    "Stock": 16,
+    "Quantity on Hand":14,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery13",
+    "Stock": 17,
+    "Quantity on Hand":15,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery14",
+    "Stock": 18,
+    "Quantity on Hand":16,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery15",
+    "Stock": 19,
+    "Quantity on Hand":17,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery16",
+    "Stock": 20,
+    "Quantity on Hand":18,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery17",
+    "Stock": 21,
+    "Quantity on Hand":19,
+    "Size": "A",
+    "Colour":"Orange"
+},
+{
+    "Name":"Battery18",
+    "Stock": 22,
+    "Quantity on Hand":20,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery19",
+    "Stock": 23,
+    "Quantity on Hand":21,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery20",
+    "Stock": 24,
+    "Quantity on Hand":22,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery21",
+    "Stock": 25,
+    "Quantity on Hand":23,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery22",
+    "Stock": 26,
+    "Quantity on Hand":24,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery23",
+    "Stock": 27,
+    "Quantity on Hand":25,
+    "Size": "AAA",
+    "Colour":"Red"
+},
+{
+    "Name":"Battery24",
+    "Stock": 28,
+    "Quantity on Hand":26,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery25",
+    "Stock": 29,
+    "Quantity on Hand":27,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery26",
+    "Stock": 30,
+    "Quantity on Hand":28,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery27",
+    "Stock": 31,
+    "Quantity on Hand":29,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery28",
+    "Stock": 32,
+    "Quantity on Hand":30,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery29",
+    "Stock": 33,
+    "Quantity on Hand":31,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery30",
+    "Stock": 34,
+    "Quantity on Hand":32,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery31",
+    "Stock": 35,
+    "Quantity on Hand":33,
+    "Size": "C",
+    "Colour":"Brown"
+},
+{
+    "Name":"Battery32",
+    "Stock": 35,
+    "Quantity on Hand":32,
+    "Size": "AA",
+    "Colour":"Yellow"
+},
+{
+    "Name":"Battery33",
+    "Stock": 36,
+    "Quantity on Hand":30,
+    "Size": "AA",
+    "Colour":"Yellow"
+},
+{
+    "Name":"Battery34",
+    "Stock": 37,
+    "Quantity on Hand":33,
+    "Size": "AA",
+    "Colour":"Yellow"
+},
+{
+    "Name":"Battery35",
+    "Stock": 38,
+    "Quantity on Hand":23,
+    "Size": "AA",
+    "Colour":"Yellow"
+}
+]
+}

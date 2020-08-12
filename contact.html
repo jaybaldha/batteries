@@ -12,10 +12,17 @@
         <title>Contact Us</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1">
-        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"
+   ></script>
 	   <script src="js/jquery.validate.min.js"></script>
 	   <script src="js/additional-methods.min.js"></script>	
-	   <script src="js/validation.js"></script>
+        <script src="js/validation.js"></script>
+     
+        <script src="plugins/jquery.highlight.js"></script>	
+        <script src="js/highlightmenu.js"></script>	
 </head>
 
 <body id="container">
@@ -25,7 +32,7 @@
         </header>
         <div class="companyName"><a href="index.html"><img src="images/final_logo.png" alt="Bjion Batteries logo"></a></div>
        <!--Use the nav area to add the hyperlinks to other pages-->
-       <nav>
+       <nav id="nav_menu">
          <a href="index.html">Home</a>
          <a href="about.html">About Us</a>
          <a href="team.html">Our Team</a>
@@ -55,7 +62,6 @@
               <label for="rphone">Phone</label>
               <input type="radio" id="r" name="media" value="remail" class="inpRadio" checked>
               <label for="remail">Email</label>
-              <input type="file">
               </fieldset>
               <fieldset>
               <legend>Product information</legend>
@@ -91,7 +97,7 @@
               <label for="questions">Questions?</label>
               <textarea id="questions" name="questions" rows="3" cols="25" placeholder="Type in here for your questions"></textarea>
               <input type="submit" id="submit" value="Submit Request" class="btn">
-              <input type="button" id="reset" value="Reset Form" class="btn">
+              <input type="reset" id="reset" name="reset" value="Reset Form" class="btn">
            </form>
             <p>We are located at:<br>
             123, Vidal ST S<br>
