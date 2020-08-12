@@ -24,7 +24,7 @@
        </header>
        <div class="companyName"><a href="index.html"><img src="images/final_logo.png" alt="Bjion Batteries logo"></a></div>
        <!--Use the nav area to add the hyperlinks to other pages--> 
-       <nav>
+       <nav id="vecta_menu">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="team.html">Our Team</a>
@@ -33,6 +33,23 @@
             <a href="contact.html">Contact Us</a>
            <!-- <a href="styleguide1.html">Style Guide</a> -->
         </nav>
+        <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+			integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Highlight plugin -->
+		<script src="plugins/jquery.highlight.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('#vecta_menu').highlightMenu({
+                    color: 'rgb(98, 161, 206)',
+                    hoverColor:'rgb(56, 231, 202)'
+				});
+			});
+		</script>
+
        
        <div id="banner"> <!--/*class="desktop" use in future-->
             <!--Batteries Page Banner-->

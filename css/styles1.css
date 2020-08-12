@@ -23,7 +23,7 @@ nav{
 }
 nav a{
     padding: 30px;
-    color: rgb(98, 161, 206);
+    /* color: rgb(98, 161, 206); */
     margin-left:0;
     margin-right:0;
     width:20%;
@@ -32,9 +32,9 @@ nav a:link{
     text-decoration: none;
 }
 nav a:hover{
-    color:rgb(56, 231, 202);
+    /* color:rgb(56, 231, 202); */
     /* text-shadow:0.2em 0.1em #01081f; */
-    font-style: italic;
+    /* font-style: italic; */
 }
 /*Style for the footer specifies font size,text alignment, and top margin*/
 footer{
@@ -287,11 +287,11 @@ nav a{
 nav a:link{
     text-decoration: none;
 }
-nav a:hover{
+/* nav a:hover{
     color:rgb(56, 231, 202);
     text-shadow:0.2em 0.1em #01081f;
     font-style: italic;
-}
+} */
 /*Style applies height and opacity to images within figure element*/
 figure img{
     height:15em;
