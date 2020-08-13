@@ -17,7 +17,9 @@
 			crossorigin="anonymous"
 		></script>
         <script src="plugins/jquery.highlight.js"></script>	
-        <script src="js/highlightmenu.js"></script>	
+        <script src="js/highlightmenu.js"></script>
+        <script src="js/reader.js"></script>	
+        <script type="text/javascript" src="data/products.json"></script>
 </head>
 <body id="container">
       <!--Use the header for the website name or logo-->
@@ -35,6 +37,10 @@
         <a href="contact.html">Contact Us</a>
         <!-- <a href="styleguide1.html">Style Guide</a> -->
     </nav>
+    <!-- <script>
+        var products = JSON.parse(products);
+        console.log(products[0].Name);
+    </script> -->
        <!--Use the main area to add the main content of the webpage-->
        <main>
         <div class="mobile">
@@ -80,7 +86,7 @@
         </div>
         <div class="desktop">
                 <h2 style="text-align: center;">Product Training Schedule</h2>
-                <table> <!--Start Table-->
+                <table id="userdata"> <!--Start Table-->
                         <caption>See the schedule for different product trainings below</caption>
                         <tr><!--Row 1-->
                             <th>Product</th>
@@ -90,6 +96,9 @@
                             <th>Size</th>
                             <th>Colour</th>
                         </tr>
+                        <tbody>
+
+                        </tbody>
                         <tr><!--Row 2-->
                             <td><img src="images/tableImg1.jpg" alt="table Image 1"></td>
                             <td>Battery1</td>
