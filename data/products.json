@@ -1,12 +1,13 @@
-{"Batteries":[
 {
-    "Name":"Battery1",
-    "Stock": 5,
-    "Quantity on Hand":3,
-    "Size": "AAA",
-    "Colour":"Green"
-},
-{
+ "Batteries": [
+    {
+        "Name":"Battery1",
+        "Stock": 5,
+        "Quantity on Hand":3,
+        "Size": "AAA",
+        "Colour":"Green"
+    },
+{       
     "Name":"Battery2",
     "Stock": 6,
     "Quantity on Hand":4,
@@ -244,5 +245,5 @@
     "Size": "AA",
     "Colour":"Yellow"
 }
-]
+    ]
 }
