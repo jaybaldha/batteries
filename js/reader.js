@@ -15,7 +15,7 @@ $(document).ready(function () {
                     "</td><td>"+value.Quantity_on_Hand+
                     "</td><td>"+value.Size+
                     "</td></td>"+value.Colour+
-                    "</tr>"
+                    "</td></tr>"
                 ); //end the append
             }); //end of the second each
         }); //end of the first each
