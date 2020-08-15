@@ -9,12 +9,10 @@ $(document).ready(function () {
                 //var value1 = value;
                 $("#ProductData").append(
                     //  parssing JSON format to HTML
-                     '<div>' +
                               '<td>' + value.Name + '</td>' +
                               '<td>'+ value.Stock +'</td>'+
                               '<td>' + value.Quantity_on_Hand + '</td>' +
-                              '<td>'+ value.Colour +'</td>'+
-                     '</div>'
+                              '<td>'+ value.Colour +'</td>'
                 ); //end the append
             }); //end of the second each
         }); //end of the first each
