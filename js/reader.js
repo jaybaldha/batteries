@@ -9,13 +9,13 @@ $(document).ready(function () {
                 //var value1 = value;
                 $("#ProductData").append(
                     //  parssing JSON format to HTML
-                    "<tr><td>"+(key+1)+
+                    "<td><td>"+(key+1)+
                     "</td><td>"+value.Name+
                     "</td><td>"+value.Stock+
                     "</td><td>"+value.Quantity_on_Hand+
                     "</td><td>"+value.Size+
-                    "</td></tr>"+value.Colour+
-                    "</td></tr>"
+                    "</td></td>"+value.Colour+
+                    "</tr>"
                 ); //end the append
             }); //end of the second each
         }); //end of the first each
