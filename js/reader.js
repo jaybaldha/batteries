@@ -7,12 +7,15 @@ $(document).ready(function () {
                 // trails for my validation
                 //var key1 = key;
                 //var value1 = value;
-                $("#ProductData tbody").append(
+                $("#ProductData").append(
                     //  parssing JSON format to HTML
-                              '<td>' + value.Name + '</td>' +
-                              '<td>'+ value.Stock +'</td>'+
-                              '<td>' + value.Quantity_on_Hand + '</td>' +
-                              '<td>'+ value.Colour +'</td>'
+                    "<tr><td>"+(key+1)+
+                    "</td><td>"+value.Name+
+                    "</td><td>"+value.Stock+
+                    "</td><td>"+value.Quantity_on_Hand+
+                    "</td><td>"+value.Size+
+                    "</td></tr>"+value.Colour+
+                    "</td></tr>"
                 ); //end the append
             }); //end of the second each
         }); //end of the first each
