@@ -9,12 +9,11 @@ $(document).ready(function () {
                 //var value1 = value;
                 $("#ProductData").append(
                     //  parssing JSON format to HTML
-                    "<tr><td>"+(key+1)+
-                    "</td><td>"+value.Name+
+                    "</tr><td>"+value.Name+
                     "</td><td>"+value.Stock+
                     "</td><td>"+value.Quantity_on_Hand+
                     "</td><td>"+value.Size+
-                    "</td></tr>"+value.Size+
+                    "</td></tr>"+value.Colour+
                     "</td></tr>"
                 ); //end the append
             }); //end of the second each
