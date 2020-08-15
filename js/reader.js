@@ -9,7 +9,7 @@ $(document).ready(function () {
                 //var value1 = value;
                 $("#ProductData").append(
                     //  parssing JSON format to HTML
-                    "<tr><td>"+(key+1)+
+                    "<tr><td>"+()+
                     "</td><td>"+value.Name+
                     "</td><td>"+value.Stock+
                     "</td><td>"+value.Quantity_on_Hand+
