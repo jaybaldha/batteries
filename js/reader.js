@@ -10,10 +10,10 @@ $(document).ready(function () {
                 $("#ProductData").append(
                     //  parssing JSON format to HTML
                      '<div>' +
-                              '<h3>' + value.Name + '</h3>' +
-                              '<h3>'+ value.Stock +'</h3>'+
-                              '<h3>' + value.Quantity_on_Hand + '</h3>' +
-                              '<h3>'+ value.Colour +'</h3>'+
+                              '<td>' + value.Name + '</td>' +
+                              '<td>'+ value.Stock +'</td>'+
+                              '<td>' + value.Quantity_on_Hand + '</td>' +
+                              '<td>'+ value.Colour +'</td>'+
                      '</div>'
                 ); //end the append
             }); //end of the second each
