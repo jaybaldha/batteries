@@ -12,7 +12,7 @@ $(document).ready(function () {
                      '<div>' +
                               '<h3>' + value.Name + '</h3>' +
                               '<h3>'+ value.Stock +'</h3>'+
-                              '<h3>' + value.Quantity on Hand + '</h3>' +
+                              '<h3>' + value.Quantity_on_Hand + '</h3>' +
                               '<h3>'+ value.Colour +'</h3>'+
                      '</div>'
                 ); //end the append
