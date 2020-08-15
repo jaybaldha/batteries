@@ -14,7 +14,7 @@ $(document).ready(function () {
                     "</td><td>"+value.Stock+
                     "</td><td>"+value.Quantity_on_Hand+
                     "</td><td>"+value.Size+
-                    "</td></tr>"+value.Colour+
+                    "</td></tr>"+value.Size+
                     "</td></tr>"
                 ); //end the append
             }); //end of the second each
