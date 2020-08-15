@@ -7,7 +7,7 @@ $(document).ready(function () {
                 // trails for my validation
                 //var key1 = key;
                 //var value1 = value;
-                $("#ProductData tbody").append(
+                $("#ProductData").append(
                     //  parssing JSON format to HTML
                      '<div>' +
                               '<h3>' + value.Name + '</h3>' +
